@@ -154,22 +154,6 @@ void *Consumer()
 	}
 }
 
-/*void kill_pthrad()
-{	
-	pthread_t producid;
-	pthread_t consumid;
-	char exit;
-	while(1)
-	{i
-		scanf("%c", &exit);
-		if(exit == '\n')
-		{
-			pthread_kill(producid, 9);
-			pthread_kill(consumid, 9);
-			puts("已杀死进程！");
-		}
-	}
-}*/
 
 int main()
 {
